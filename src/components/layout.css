@@ -11,9 +11,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-.logo{
-        color: white;
-        font-weight:bold; 
+.homepage__logo{
+    max-height: 150px;
+    max-width: 80%;
 }
 p{
     color: white;

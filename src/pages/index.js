@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 
+const logo = require("../images/logo.png")
+
 const IndexPage = () => (
   <Layout >
     <div className="homepage">
-      <h1 className="display-2 logo">Nature's Beauty Drop</h1>
+      <img src={logo} className="homepage__logo"/>
       <p className="font-weight-bold ">Coming soon....</p>
     </div>
   </Layout>
