@@ -5,7 +5,7 @@ const IndexPage = () => (
   <Layout >
     <div className="text-center mt-5">
       <h1 >Nature's Beauty Drop</h1>
-      <p>Coming soon....</p>
+      <p className="font-weight-bold">Coming soon....</p>
     </div>
     
     
