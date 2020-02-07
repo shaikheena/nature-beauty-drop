@@ -2,8 +2,12 @@ import React from "react"
 import Layout from "../components/layout"
 
 const IndexPage = () => (
-  <Layout>
-    <h1 className="text-center">Nature's Beauty Drop</h1>
+  <Layout >
+    <div className="text-center mt-5">
+      <h1 >Nature's Beauty Drop</h1>
+      <p>Coming soon....</p>
+    </div>
+    
     
   </Layout>
 )
