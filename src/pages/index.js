@@ -3,12 +3,10 @@ import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout >
-    <div className="text-center mt-5">
-      <h1 >Nature's Beauty Drop</h1>
-      <p className="font-weight-bold">Coming soon....</p>
+    <div className="homepage">
+      <h1 className="display-2 logo">Nature's Beauty Drop</h1>
+      <p className="font-weight-bold ">Coming soon....</p>
     </div>
-    
-    
   </Layout>
 )
 
