@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    Welcome Page
+    <h1 className="text-center">Nature's Beauty Drop</h1>
     
   </Layout>
 )
