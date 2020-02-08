@@ -17,5 +17,9 @@ body{
 }
 p{
     color: white;
+}
+.sidebar__logo{
+    max-height: 60px;
+    max-width:40%;
     
 }
