@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       </Helmet>
       {/* <Header/> */}
       
-      <div className="container-fluid pl-0 d-flex">
+      <div className="container-fluid pl-0 pr-0 d-flex">
         <Sidebar />
         <main>{children}</main>
       </div>

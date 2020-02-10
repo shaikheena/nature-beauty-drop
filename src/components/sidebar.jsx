@@ -29,8 +29,8 @@ export default function Sidebar({ }) {
 
 const SideMenu = (props) => {
     var menu = props.menu;
-    return <li>
-        <Link to={menu.link} className="nav-link">{menu.label} </Link>
+    return <li >
+        <Link to={menu.link} className="nav-link text-muted">{menu.label} </Link>
     </li>
 
 }
