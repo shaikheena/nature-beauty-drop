@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(rgba(89, 241, 109, 0.3)), url("../images/bg.jpg");
+    background-image: url("../images/Handmade__bg.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     background-size:cover;
@@ -29,4 +29,19 @@ p{
 }
 .about_para{
     text-align: justify;
+}
+.row__products > div[class*="col"]:hover{
+    box-shadow: 0 8px 56px rgba(0,0,0, .5);
+ }
+ .row__products > div[class*="col"] {
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 0  0 0 1px rgba(0,0,0,.1);
+ }
+ img{
+    width: 100%;
+}
+.title_style{
+    line-height: 0.8 !important; 
+    font-weight: bold !important;
 }
