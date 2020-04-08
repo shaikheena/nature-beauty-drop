@@ -5,6 +5,8 @@ const product_Img = require("../images/product.jpg")
 export default () => {
     return <Layout>
         <Title title={"Products"} />
-        
+        <div>
+            
+        </div>
     </Layout>
 }
